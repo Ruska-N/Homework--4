@@ -10,10 +10,10 @@
   );
 }
 
-/* header styles */
+/* head-top styles */
 .head-top {
   width: 100%;
-  padding: 16px 20px 15px 20px;
+  padding: 5px 20px;
   background-color: var(--main-dark);
   color: white;
   display: flex;
@@ -162,4 +162,24 @@ header {
 .header-icons {
     display: flex;
     gap: 10px;
+}
+
+/* carousel section styles */
+.section-1 {
+    display: flex;
+    padding: 20px;
+    width: 1400px;
+    gap: 24px;
+    margin: 0 auto;
+}
+.car-aside {
+    height: 400px;
+    border-radius: 15px;
+}
+.car-img {
+    height: 400px;
+}
+.car-img img {
+    height: 100%;
+    border-radius: 15px;
 }
